@@ -1,0 +1,17 @@
+.spinner {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid grey;
+  border-top: 10px solid red;
+  animation: rotate 2s infinite ease;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(300deg);
+  }
+}
